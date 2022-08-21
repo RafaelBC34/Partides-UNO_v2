@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Partides-UNO</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_regles_joc">Regles del joc</string>
+    <string name="action_tanca_partida_actual">Tanca partida actual</string>
+    <string name="action_info">Info&#8230;</string>
+
+    <string name="text_btn_nova_partida">Nova partida</string>
+    <string name="text_btn_darreres_partides">Darreres partides</string>
+    <string name="text_btn_ok">OK</string>
+    <string name="text_regles_joc">Inici\n
+        En cada jugada, es reparteixen set cartes per a cada jugador i es deixa una carta descoberta al taulell sobre la que ha de jugar el primer jugador, que és el següent, a la dreta, del què ha barrejat i repartit les cartes.\n\n
+
+Desenvolupament\n
+S\'ha de posar una carta que tingui concordància en nombre, color o símbol amb la que hi ha al taulell en cada jugada.
+Els +2 i +4 sumen les cartes que ha de robar de la pila el jugador que tingui el torn i no tingui cap carta igual o superior per posar. Els +2 i els +4 són superiors a la resta de cartes. Els +4 són superiors als +2, per tant, no es pot posar un +2 després d\'un +4. Els comodins de color són superiors als nombres i als símbols, però no als +2 i als +4.
+Qualsevol jugador es pot colar (pot posar una carta al taulell) en qualsevol moment, encara que no sigui el seu torn, només si la seva carta és idèntica a la del taulell.\n\n
+
+Final\n
+La jugada acaba quan un jugador es queda sense cartes.\n\n
+
+Recompte\n
+Al final de cada jugada, cada jugador ha de comptar els punts que sumen les seves cartes, per introduïr el valor a l\'aplicació i faci el recompte amb la seva puntuació total.\n\n
+
+Punts\n
+Les cartes amb valors numérics, sumen el valor d\'aquests: 1, 4, 9&#8230;\n
+Les cartes amb símbols (salt de torn i canvi de sentit) i els +2, sumen 20 punts.\n
+Els +4 i els comodins de color, sumen 50 punts.\n\n
+
+Partida\n
+La partida acaba quan tots els jugadors, excepte el que té la puntuació més baixa, han superat el límit de punts i, per tant, han estat eliminats. Si els jugadors amb la puntuació més baixa superen el límit de punts a la vegada, assolint la mateixa puntuació, la partida segueix fins que es resol l\'empat i hi ha un guanyador.\n\n
+
+Aplicació\n
+La finalitat d\'aquesta aplicació és, doncs, poder fer un recompte de partida jugant a l\'UNO, mijtançant el recompte de successives jugades, eliminant en cada jugada els jugadors que superen el límit de punts o, en el cas que més d\'un el superi assolint la mateixa puntuació, resolent l\'empat amb les jugades que siguin necessàries.\n
+En la secció \'Darreres partides\' es desa un historial de les partides jugades amb: el nom de la partida, la data d\'aquesta, el límit de punts que es va configurar i, si no es va tancar la partida abans d\'acabar-la, el nom del guanyador.</string>
+
+    <string name="title_activity_partida">Partida</string>
+
+    <string name="title_activity_config_nova_partida">Configuració de partida nova</string>
+    <string name="title_activity_darreres_partides">Darreres Partides</string>
+    <string name="title_activity_suma_ronda_punts">Suma Punts</string>
+    <string name="title_activity_regles_joc">Regles del joc</string>
+</resources>

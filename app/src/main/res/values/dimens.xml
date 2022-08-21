@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="recycler_view_horizontal_margin">16dp</dimen>
+    <dimen name="recycler_view_vertical_margin">16dp</dimen>
+    <dimen name="recycler_view_row_padding_vertical">10dp</dimen>
+</resources>
